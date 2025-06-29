@@ -72,3 +72,15 @@ variable "vnet_name" {
   type        = string
   default = "myVnet"
 }
+
+variable "subnet_name" {
+  description = "Subnet ka naam"
+  type        = string
+  default = "my-subnet"
+}
+
+variable "vnet_name" {
+  description = "Vnet ka naam"
+  type        = string
+  default = "myVnet"
+}
